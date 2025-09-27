@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 class InsertionSortTest {
 
     @Test
-    void emptyArray() {
+     void emptyArray() {
         int[] out = new InsertionSort().sort(new int[]{}, new PerformanceTracker());
         assertArrayEquals(new int[]{}, out, "Empty array should remain empty");
     }
